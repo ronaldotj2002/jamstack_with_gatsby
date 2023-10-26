@@ -1,14 +1,13 @@
 import * as React from "react"
+import Layout from '../pages/components/layout'
 
 const Sobre = () => {
   return (
-    <main>
-      <h1>Sobre</h1>
-      <p>Iniciando com os primeiros componentes</p>
-    </main>
+    <Layout pageTitle="Home Page">
+    <p>Página -  Sobre</p>
+    </Layout>
   )
 }
 
-export default Sobre;
-
 export const Head = () => <title>Sobre</title>
+export default Sobre;

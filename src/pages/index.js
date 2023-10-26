@@ -1,14 +1,16 @@
 import * as React from "react"
+import Layout from '../pages/components/layout'
+
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Olá Mundo Gatsby!</h1>
+
+    <Layout pageTitle="Home Page">
       <p>Iniciando com os primeiros componentes</p>
-    </main>
+    </Layout>
+    
   )
 }
 
-export default IndexPage
-
 export const Head = () => <title>Home Page</title>
+export default IndexPage
