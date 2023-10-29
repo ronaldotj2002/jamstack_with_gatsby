@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://jamstack-with-gatsby.vercel.app/`,
   },
   plugins: [],
 }

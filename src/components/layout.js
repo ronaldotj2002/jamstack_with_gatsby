@@ -1,12 +1,16 @@
 import * as React from 'react';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
+import "./layout.css"
+
 
 const Layout = ({ pageTitle, children }) => {
     return  (
         <div>
-            <hr/>
-            
-            <nav>
+           <header>
+
+           <h1>Projeto de Bloco jamstack com Gatsby</h1>
+           
+            <nav id='menu'>
                 <ul>
                     <li>
                         <Link to="/">Início</Link>
@@ -16,7 +20,8 @@ const Layout = ({ pageTitle, children }) => {
                     </li>
                 </ul>
             </nav>            
-            <hr/>
+           </header>
+            
             <main>
                 <h1>{ pageTitle }</h1>
                 { children }
