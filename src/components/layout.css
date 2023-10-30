@@ -6,6 +6,11 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
 h1 {
     padding: 30px 0;
     text-align: center;
@@ -16,7 +21,7 @@ h1 {
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
-	border-radius: 10px;
+	border-radius: 10px;	
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -46,4 +51,18 @@ h1 {
 #menu li a:hover {
 	color: #0099CC;
 	background: #F2F2F2;
+}
+
+footer {
+	width: 100%;
+	background: #0099CC;
+	color: #FFF;
+	min-height: 45px;
+	position: absolute;	
+	bottom: 0;
+}
+
+footer p {
+	text-align: center;
+	margin:20px 0;
 }

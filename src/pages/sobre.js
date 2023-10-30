@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const Sobre = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Sobre">
     <p>Página -  Sobre</p>
     </Layout>
   )
