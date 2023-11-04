@@ -17,7 +17,7 @@ h1 {
 }
 
 #menu {
-	background: #0099CC;
+	background: #639;
 	color: #FFF;
 	height: 45px;
 	padding-left: 18px;
@@ -49,13 +49,13 @@ h1 {
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #0099CC;
+	color: #639;
 	background: #F2F2F2;
 }
 
 footer {
 	width: 100%;
-	background: #0099CC;
+	background: #639;
 	color: #FFF;
 	min-height: 45px;
 	position: absolute;	
@@ -65,4 +65,10 @@ footer {
 footer p {
 	text-align: center;
 	margin:20px 0;
+}
+
+figure {
+	width: 100px !important;
+    margin: 20px auto;
+    display: block;
 }

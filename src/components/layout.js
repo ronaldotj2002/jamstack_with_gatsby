@@ -1,29 +1,47 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
-import "./layout.css"
-import Menu from '../../_include/menu.mdx'
+import { useStaticQuery, graphql } from 'gatsby';
+import "./layout.css";
+import Menu from '../../_include/menu.mdx';
+import Footer from './footer';
+import Img from 'gatsby-image';
 
 
 const Layout = ({ pageTitle, children }) => {
+
+    const data = useStaticQuery(graphql`
+    query {
+        site {
+            siteMetadata {
+                title                
+            }
+        }
+        file(relativePath: {eq: "logo.png"}) {
+            childImageSharp {
+              fluid{
+                base64
+                src
+                aspectRatio
+                sizes
+                srcSet
+              }
+            }
+          }
+    }`) 
+
     return  (
         <div>
            <header className="container">
 
-           <h1>Projeto de Bloco jamstack com Gatsby</h1>
+            <figure>
+               <Img 
+                fluid = {data.file.childImageSharp.fluid}
+                alt="Logo Gatsby"
+                />
+            </figure> 
+           <h1>{data.site.siteMetadata.title}</h1>
            
             <nav id='menu'>
-                <Menu />
-                {/* <ul>
-                    <li>
-                        <Link to="/">Início</Link>
-                    </li>
-                    <li>
-                        <Link to="/sobre">Sobre</Link>
-                    </li>
-                    <li>
-                        <Link to="/contato">Contato</Link>
-                    </li>
-                </ul> */}
+                <Menu />               
             </nav>            
            </header>
             
@@ -34,7 +52,7 @@ const Layout = ({ pageTitle, children }) => {
 
         
             <footer>
-                <p>Aqui fica o Rodapé</p>
+                <Footer/>
             </footer>
         </div>
     )
