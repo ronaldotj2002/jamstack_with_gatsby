@@ -18,7 +18,7 @@
     "@mdx-js/react": "^3.0.0",
     "gatsby": "^5.12.4",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-mdx": "^5.12.3",
+    "gatsby-plugin-mdx": "4.4.0",
     "gatsby-plugin-sharp": "^5.12.3",
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-sharp": "^5.12.3",
