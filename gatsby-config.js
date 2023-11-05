@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/_include`,
+        path: `${__dirname}/_include`, 
       },
     },
     `gatsby-transformer-sharp`,
