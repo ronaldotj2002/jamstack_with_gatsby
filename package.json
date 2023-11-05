@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.12.4",
+    "gatsby": "^5.0.0",
     "gatsby-plugin-mdx": "^5.12.3",
     "gatsby-source-filesystem": "^5.12.1",
     "@mdx-js/react": "^3.0.0",
