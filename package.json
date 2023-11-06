@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "prebuild": "npm cache clean --force",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
