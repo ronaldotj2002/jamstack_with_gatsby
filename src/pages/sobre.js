@@ -4,10 +4,10 @@ import Layout from '../components/layout'
 const Sobre = () => {
   return (
     <Layout pageTitle="Sobre">
-    <p>Página -  Sobre</p>
+    <p>Página -  Sobre</p> 
     </Layout>
   )
 }
 
-export const Head = () => <title>Sobre</title>
+export const Head = () => <title>Sobre </title>
 export default Sobre;

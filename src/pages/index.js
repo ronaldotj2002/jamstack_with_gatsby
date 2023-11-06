@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
 
     <Layout pageTitle="Home Page">
-      <p>Iniciando com os primeiros componentes</p>
+      <p>Iniciando com os primeiros componentes</p> 
     </Layout>
     
   )
