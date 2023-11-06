@@ -9,11 +9,7 @@
   ],
   "scripts": {
     "prebuild": "npm cache clean --force",
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "start": "gatsby develop"
   },
   "dependencies": {
     "@mdx-js/react": "^3.0.0 --force",
