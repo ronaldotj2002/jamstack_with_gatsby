@@ -9,7 +9,11 @@
   ],
   "scripts": {
     "prebuild": "npm cache clean --force",
-    "start": "gatsby develop"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/react": "^3.0.0 --force",
@@ -19,8 +23,7 @@
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-sharp": "^5.12.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0 --force",
-    "gatsby-plugin-mdx": "^5.12.3 --force"
+    "react-dom": "^18.2.0 --force"
   },
   "engines": {
     "node": "18.16.0"
