@@ -11,7 +11,7 @@
     "node": "18.16.0"
   },
   "scripts": {
-    "prebuild": "npm cache clean --force",
+    "prebuild": "npm config set legacy-peer-deps true",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
