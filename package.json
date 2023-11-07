@@ -4,12 +4,12 @@
   "private": true,
   "description": "projeto-de-aula",
   "author": "Ronaldo Teixeira",
-  "keywords": [
-    "gatsby"
-  ],
   "config": {
     "legacy-peer-deps": true
   },
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
