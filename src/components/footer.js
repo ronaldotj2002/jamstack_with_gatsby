@@ -15,9 +15,9 @@ const Footer = ({ pageTitle, children }) => {
 
     return  (
                   
-            <footer>
+            
                 <p>{data.site.siteMetadata.description} </p>
-            </footer>
+           
        
     )
 }

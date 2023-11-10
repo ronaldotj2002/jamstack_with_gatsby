@@ -29,7 +29,9 @@ const Layout = ({ pageTitle, children }) => {
     }`) 
 
     return  (
-        <div>
+       
+        <body>
+
            <header className="container">
 
             <figure>
@@ -54,7 +56,7 @@ const Layout = ({ pageTitle, children }) => {
             <footer>
                 <Footer/>
             </footer>
-        </div>
+        </body>
     )
 }
 

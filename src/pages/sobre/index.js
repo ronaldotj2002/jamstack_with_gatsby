@@ -1,10 +1,13 @@
 import * as React from "react"
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
+import "../styles.css"
 
 const Sobre = () => {
   return (
     <Layout pageTitle="Sobre">
-    <p>Página -  Sobre</p> 
+      <div className="content">
+        <p>Página -  Sobre</p> 
+      </div>
     </Layout>
   )
 }

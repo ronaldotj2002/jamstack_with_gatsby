@@ -8,7 +8,11 @@ body {
 
 .container {
 	width: 70%;
-	margin: 0 auto;
+	margin: 0 auto;	
+}
+
+.content {
+	padding: 20px;
 }
 
 h1 {
@@ -71,4 +75,19 @@ figure {
 	width: 100px !important;
     margin: 20px auto;
     display: block;
+}
+
+@media screen and (max-width: 412px) {
+	footer {
+		width: 100%;
+		background: #639;
+		color: #FFF;
+		min-height: 45px;
+		position: relative !important;	
+		bottom: -10vh;
+	}
+
+	footer p {
+		padding: 20px 0;
+	}
 }
