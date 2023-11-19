@@ -67,7 +67,7 @@
   }
   
   form {
-    width: 60%;
+    max-width: 80%;
     margin: 0 auto;
 
   }
@@ -83,4 +83,34 @@
 content {
     border: 1px solid #ccc !important;
     padding: 15px;    
+}
+
+.banner {
+  width: 100%;
+}
+#p2 {
+  text-align: center;
+}
+
+.p-sobre {
+  margin-top: 20px;
+}
+
+.p-sobre span {
+    font-size: 50px;
+    font-family: auto;
+}
+
+.p-sobre a{
+  text-decoration: none;
+  color: #639;
+  font-weight: 500;
+}
+
+.p-sobre a:hover {
+  text-decoration: underline;
+}
+
+h2, .ap, b, li {
+  color: #639;;
 }

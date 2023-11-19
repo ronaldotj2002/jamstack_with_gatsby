@@ -30,8 +30,7 @@ const Layout = ({ pageTitle, children }) => {
 
     return  (
        
-        <body>
-
+        <body>        
            <header className="container">
 
             <figure>
