@@ -1,0 +1,39 @@
+h2.post {
+    text-align: center;
+}
+
+.btn-voltar {
+    background: #639;
+    color: #fff;
+    padding:10px 20px;
+    border-radius:7px;
+    width: 90px;
+}
+
+.btn-voltar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #999
+    
+}
+
+p {
+    color: #777;    
+    margin: 15px 0;
+}
+li {
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #639;
+}

@@ -13,13 +13,7 @@ const Footer = ({ pageTitle, children }) => {
         }
     }`) 
 
-    return  (
-                  
-            
-                <p>{data.site.siteMetadata.description} </p>
-           
-       
-    )
+    return  (   <p >{data.site.siteMetadata.description} </p>  )
 }
 
 export default Footer

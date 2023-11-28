@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 
+
 const IndexPage = () => {
 
   const data = useStaticQuery(graphql`
